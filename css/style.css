@@ -1,0 +1,180 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "SF Pro Display", sans-serif;
+}
+
+main {
+  background-color: rgb(190, 240, 253);
+  height: 100vh;
+  padding: 3rem;
+}
+
+.container {
+  width: 35%;
+  margin: 0rem auto 1rem auto;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.container h1 {
+  text-align: center;
+  margin: 1rem 0px;
+  font-size: 2.2rem;
+}
+
+.container form input {
+  width: 98%;
+  outline: none;
+  background-color: transparent;
+  margin-top: 1.4rem;
+  font-size: 1.1rem;
+  padding: 0.3rem;
+  text-transform: capitalize;
+  border: none;
+  border-bottom: 1px solid rgb(114, 178, 234);
+}
+
+.container form input::placeholder {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.container form p {
+  color: red;
+  padding: 2px 1rem;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+}
+
+.container form .btns {
+  margin: 1rem 0rem;
+}
+
+.container form .btns .btn {
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  margin: 0rem 0.3rem;
+}
+
+.container form .btns .btn:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+  transition: all 0.2s linear;
+}
+
+.container form .btns .btn:active {
+  transition: all 0.1s linear;
+  transform: translateY(3px);
+  box-shadow: none;
+}
+
+.container form .btns .submit {
+  background-color: rgb(114, 239, 114);
+}
+
+.container form .btns .submit:hover {
+  background-color: rgb(110, 209, 110);
+}
+
+.container form .btns .reset {
+  background-color: red;
+}
+
+.container form .btns .reset:hover {
+  background-color: rgb(203, 65, 65);
+}
+
+.container-text {
+  border: 2px solid rgb(114, 178, 234);
+  border-top: none;
+  margin: 3rem 0.1rem 0.3rem 0.1rem;
+  padding: 0.8rem;
+}
+
+.container-text p {
+  font-size: 1.2rem;
+  color: rgb(77, 66, 66);
+  padding: 0.5rem 0;
+  font-weight: bold;
+}
+
+.message {
+  font-size: 1rem;
+  color: rgb(77, 66, 66);
+  padding: 0.5rem 0;
+  font-weight: bold;
+}
+
+/* Css Loader Started */
+/* .loader {
+  height: 100vh;
+  position: fixed;
+}
+
+.middle {
+    background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.bar {
+  width: 10px;
+  height: 70px;
+  background: #fff;
+  display: inline-block;
+  transform-origin: bottom center;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  animation: loader 1.2s linear infinite;
+}
+.bar1 {
+  animation-delay: 0.1s;
+}
+.bar2 {
+  animation-delay: 0.2s;
+}
+.bar3 {
+  animation-delay: 0.3s;
+}
+.bar4 {
+  animation-delay: 0.4s;
+}
+.bar5 {
+  animation-delay: 0.5s;
+}
+.bar6 {
+  animation-delay: 0.6s;
+}
+.bar7 {
+  animation-delay: 0.7s;
+}
+.bar8 {
+  animation-delay: 0.8s;
+}
+
+@keyframes loader {
+  0% {
+    transform: scaleY(0.1);
+  }
+  50% {
+    transform: scaleY(1);
+    background: yellowgreen;
+  }
+  100% {
+    transform: scaleY(0.1);
+    background: transparent;
+  }
+} */
+/* Css Loader Started */
